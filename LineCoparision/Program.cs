@@ -70,23 +70,8 @@ namespace LineCoparision
             Console.WriteLine();
 
             Console.WriteLine();
-
-
-
-            if (length == length1)
-                if (length == length1)                    // if statement for comparision of the two lines
-                {
-                    Console.WriteLine("Both the lines are equal");
-                }
-                else if (length > length1)
-                {
-                    Console.WriteLine("Line 1 is greater than line 2");
-                }
-                else
-                {
-
-                    Console.WriteLine("Line 2 is greater than line 1 ");
-                }
+            Console.WriteLine("Line 2 is greater than line 1 ");
+                
 
 
         }
