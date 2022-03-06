@@ -66,21 +66,31 @@ namespace LineCoparision
             len1 = point3 + point4;
             length1 = Math.Sqrt(len1);
 
-            Console.WriteLine("The length of line 1 : " + length);
             Console.WriteLine("The length of line 2 : " + length1);
             Console.WriteLine();
 
-            if (length == length1)
-            {
-                Console.WriteLine("Both the lines are equal");
-            }
-            else
-            {
-                Console.WriteLine("The lines aren't equal");
-            }
+            Console.WriteLine();
 
+
+
+            if (length == length1)
+                if (length == length1)                    // if statement for comparision of the two lines
+                {
+                    Console.WriteLine("Both the lines are equal");
+                }
+                else if (length > length1)
+                {
+                    Console.WriteLine("Line 1 is greater than line 2");
+                }
+                else
+                {
+
+                    Console.WriteLine("Line 2 is greater than line 1 ");
+                }
 
 
         }
+
     }
+     
 }
